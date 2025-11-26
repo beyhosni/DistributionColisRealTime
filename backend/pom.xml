@@ -5,18 +5,16 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.2.0</version>
+		<version>3.3.0</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.distribution</groupId>
 	<artifactId>colis-backend</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>DistributionColisRealTime</name>
+	<name>colis-backend</name>
 	<description>Backend for Parcel Distribution System</description>
 	<properties>
-		<java.version>21</java.version> <!-- Using 21 as 23 might not be fully supported by all tools yet, but user asked for 23. Let's try 23 if possible or stick to LTS 21 if 23 is too bleeding edge for standard starters. User asked for 23 explicitly. -->
-        <maven.compiler.source>23</maven.compiler.source>
-        <maven.compiler.target>23</maven.compiler.target>
+		<java.version>23</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
