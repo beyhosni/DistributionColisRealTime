@@ -1,6 +1,6 @@
 package com.distribution.colis.model.dto.response;
 
-import com.distribution.colis.model.entity.RouteStatus;
+import com.distribution.colis.enums.RouteStatus;
 import lombok.Data;
 
 import java.time.LocalDate;

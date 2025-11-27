@@ -1,6 +1,6 @@
 package com.distribution.colis.model.dto.request;
 
-import com.distribution.colis.model.entity.ServiceType;
+import com.distribution.colis.enums.ServiceType;
 import jakarta.validation.constraints.DecimalMin;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;

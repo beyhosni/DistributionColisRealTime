@@ -17,7 +17,9 @@ c:\Users\33656\Documents\Workspace\DistributionColisRealTime\backend\src\main\ja
 c:\Users\33656\Documents\Workspace\DistributionColisRealTime\backend\src\main\java\com\distribution\colis\entity\UserProfile.java
 c:\Users\33656\Documents\Workspace\DistributionColisRealTime\backend\src\main\java\com\distribution\colis\entity\UserRole.java
 c:\Users\33656\Documents\Workspace\DistributionColisRealTime\backend\src\main\java\com\distribution\colis\entity\UserRoleId.java
+c:\Users\33656\Documents\Workspace\DistributionColisRealTime\backend\src\main\java\com\distribution\colis\enums\RouteStatus.java
 c:\Users\33656\Documents\Workspace\DistributionColisRealTime\backend\src\main\java\com\distribution\colis\enums\ServiceType.java
+c:\Users\33656\Documents\Workspace\DistributionColisRealTime\backend\src\main\java\com\distribution\colis\enums\TaskStatus.java
 c:\Users\33656\Documents\Workspace\DistributionColisRealTime\backend\src\main\java\com\distribution\colis\kafka\consumer\NotificationConsumer.java
 c:\Users\33656\Documents\Workspace\DistributionColisRealTime\backend\src\main\java\com\distribution\colis\kafka\event\ParcelEvent.java
 c:\Users\33656\Documents\Workspace\DistributionColisRealTime\backend\src\main\java\com\distribution\colis\kafka\event\ParcelSpecificEvents.java

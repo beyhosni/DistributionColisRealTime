@@ -1,7 +1,7 @@
 package com.distribution.colis.repository;
 
 import com.distribution.colis.model.entity.DeliveryRoute;
-import com.distribution.colis.model.entity.RouteStatus;
+import com.distribution.colis.enums.RouteStatus;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

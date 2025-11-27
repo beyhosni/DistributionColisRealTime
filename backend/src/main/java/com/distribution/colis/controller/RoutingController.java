@@ -2,7 +2,7 @@ package com.distribution.colis.controller;
 
 import com.distribution.colis.model.dto.request.DeliveryRouteRequest;
 import com.distribution.colis.model.dto.response.DeliveryRouteResponse;
-import com.distribution.colis.model.entity.TaskStatus;
+import com.distribution.colis.enums.TaskStatus;
 import com.distribution.colis.service.AuthService;
 import com.distribution.colis.service.RoutingService;
 import jakarta.validation.Valid;

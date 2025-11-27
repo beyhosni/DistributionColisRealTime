@@ -1,5 +1,6 @@
 package com.distribution.colis.model.entity;
 
+import com.distribution.colis.enums.ServiceType;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
