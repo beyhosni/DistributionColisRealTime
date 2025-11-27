@@ -1,5 +1,6 @@
 package com.distribution.colis.model.entity;
 
+import com.distribution.colis.enums.RouteStatus;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -55,11 +56,4 @@ public class DeliveryRoute {
 
     @OneToMany(mappedBy = "route", cascade = CascadeType.ALL)
     private List<DeliveryTask> deliveryTasks;
-}
-
-enum RouteStatus {
-    PLANNED,
-    IN_PROGRESS,
-    COMPLETED,
-    CANCELLED
 }

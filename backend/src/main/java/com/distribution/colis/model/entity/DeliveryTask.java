@@ -1,5 +1,6 @@
 package com.distribution.colis.model.entity;
 
+import com.distribution.colis.enums.TaskStatus;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -55,11 +56,4 @@ public class DeliveryTask {
 
     @OneToMany(mappedBy = "task")
     private List<DeliveryIncident> incidents;
-}
-
-enum TaskStatus {
-    PENDING,
-    IN_PROGRESS,
-    COMPLETED,
-    FAILED
 }
