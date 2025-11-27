@@ -8,6 +8,7 @@ import lombok.NoArgsConstructor;
 
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
+import java.util.List;
 
 @Entity
 @Table(name = "shipment_order")
@@ -79,15 +80,4 @@ public class ShipmentOrder {
 
     @OneToMany(mappedBy = "order")
     private List<ParcelStatus> statusHistory;
-}
-
-enum OrderStatus {
-    BORNE,
-    VALIDEE,
-    PAYEE,
-    ASSIGNEE,
-    EN_COURS,
-    LIVREE,
-    ANNULEE,
-    RETOUR
 }
