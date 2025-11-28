@@ -17,11 +17,17 @@ c:\Users\33656\Documents\Workspace\DistributionColisRealTime\backend\src\main\ja
 c:\Users\33656\Documents\Workspace\DistributionColisRealTime\backend\src\main\java\com\distribution\colis\entity\UserProfile.java
 c:\Users\33656\Documents\Workspace\DistributionColisRealTime\backend\src\main\java\com\distribution\colis\entity\UserRole.java
 c:\Users\33656\Documents\Workspace\DistributionColisRealTime\backend\src\main\java\com\distribution\colis\entity\UserRoleId.java
+c:\Users\33656\Documents\Workspace\DistributionColisRealTime\backend\src\main\java\com\distribution\colis\enums\IncidentType.java
 c:\Users\33656\Documents\Workspace\DistributionColisRealTime\backend\src\main\java\com\distribution\colis\enums\RouteStatus.java
 c:\Users\33656\Documents\Workspace\DistributionColisRealTime\backend\src\main\java\com\distribution\colis\enums\ServiceType.java
 c:\Users\33656\Documents\Workspace\DistributionColisRealTime\backend\src\main\java\com\distribution\colis\enums\TaskStatus.java
 c:\Users\33656\Documents\Workspace\DistributionColisRealTime\backend\src\main\java\com\distribution\colis\kafka\consumer\NotificationConsumer.java
+c:\Users\33656\Documents\Workspace\DistributionColisRealTime\backend\src\main\java\com\distribution\colis\kafka\event\ParcelAssignedEvent.java
+c:\Users\33656\Documents\Workspace\DistributionColisRealTime\backend\src\main\java\com\distribution\colis\kafka\event\ParcelCreatedEvent.java
+c:\Users\33656\Documents\Workspace\DistributionColisRealTime\backend\src\main\java\com\distribution\colis\kafka\event\ParcelDeliveredEvent.java
 c:\Users\33656\Documents\Workspace\DistributionColisRealTime\backend\src\main\java\com\distribution\colis\kafka\event\ParcelEvent.java
+c:\Users\33656\Documents\Workspace\DistributionColisRealTime\backend\src\main\java\com\distribution\colis\kafka\event\ParcelIncidentEvent.java
+c:\Users\33656\Documents\Workspace\DistributionColisRealTime\backend\src\main\java\com\distribution\colis\kafka\event\ParcelInDeliveryEvent.java
 c:\Users\33656\Documents\Workspace\DistributionColisRealTime\backend\src\main\java\com\distribution\colis\kafka\event\ParcelSpecificEvents.java
 c:\Users\33656\Documents\Workspace\DistributionColisRealTime\backend\src\main\java\com\distribution\colis\kafka\producer\ParcelEventProducer.java
 c:\Users\33656\Documents\Workspace\DistributionColisRealTime\backend\src\main\java\com\distribution\colis\model\dto\request\DeliveryRouteRequest.java

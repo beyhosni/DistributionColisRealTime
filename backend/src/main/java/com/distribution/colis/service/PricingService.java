@@ -3,7 +3,7 @@ package com.distribution.colis.service;
 import com.distribution.colis.model.entity.DeliveryZone;
 import com.distribution.colis.model.entity.Parcel;
 import com.distribution.colis.model.entity.PricingRule;
-import com.distribution.colis.model.entity.ServiceType;
+import com.distribution.colis.enums.ServiceType;
 import com.distribution.colis.repository.DeliveryZoneRepository;
 import com.distribution.colis.repository.PricingRuleRepository;
 import org.springframework.stereotype.Service;

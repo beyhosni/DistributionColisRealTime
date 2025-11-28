@@ -1,5 +1,6 @@
 package com.distribution.colis.model.entity;
 
+import com.distribution.colis.enums.IncidentType;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -42,12 +43,4 @@ public class DeliveryIncident {
 
     @Column(name = "resolved_at")
     private LocalDateTime resolvedAt;
-}
-
-enum IncidentType {
-    CUSTOMER_ABSENT,
-    ADDRESS_NOT_FOUND,
-    DAMAGED_PARCEL,
-    REFUSED_DELIVERY,
-    OTHER
 }

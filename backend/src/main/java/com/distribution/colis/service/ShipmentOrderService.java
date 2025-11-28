@@ -2,6 +2,7 @@ package com.distribution.colis.service;
 
 import com.distribution.colis.model.dto.request.ShipmentOrderRequest;
 import com.distribution.colis.model.dto.response.ShipmentOrderResponse;
+import com.distribution.colis.enums.ServiceType;
 import com.distribution.colis.model.entity.*;
 import com.distribution.colis.repository.*;
 import org.springframework.stereotype.Service;

@@ -1,7 +1,7 @@
 package com.distribution.colis.model.dto.response;
 
 import com.distribution.colis.model.entity.OrderStatus;
-import com.distribution.colis.model.entity.ServiceType;
+import com.distribution.colis.enums.ServiceType;
 import lombok.Data;
 
 import java.math.BigDecimal;

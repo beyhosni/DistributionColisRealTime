@@ -2,6 +2,8 @@ package com.distribution.colis.model.entity;
 
 import com.distribution.colis.enums.RouteStatus;
 import jakarta.persistence.*;
+import org.hibernate.annotations.CreationTimestamp;
+import org.hibernate.annotations.UpdateTimestamp;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
